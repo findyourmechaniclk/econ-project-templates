@@ -6,6 +6,7 @@ concurrency:
   cancel-in-progress: true
 # yamllint disable rule:line-length
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
